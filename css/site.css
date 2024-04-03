@@ -1,0 +1,74 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.transparent-bg {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.white-text {
+    color: #000000;
+}
+
+    .white-text:hover {
+        text-decoration: underline;
+    }
+
+.countdown-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.countdown-item {
+    text-align: center;
+}
+
+.countdown-number {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.countdown-label {
+    font-size: 18px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+/* Media queries for mobile view */
+@media (max-width: 768px) {
+    .countdown-container {
+        flex-wrap: wrap;
+    }
+
+    .countdown-item {
+        width: 50%; /* Display two items per row */
+    }
+}
