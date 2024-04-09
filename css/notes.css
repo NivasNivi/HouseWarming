@@ -69934,5 +69934,6 @@ a.u-link.u-text-hover-grey-90:hover {
     .u-image {
         width: 100%;
         height: auto;
+        max-width: 100%;
     }
 }
