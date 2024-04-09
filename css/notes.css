@@ -69937,3 +69937,13 @@ a.u-link.u-text-hover-grey-90:hover {
         display: block !important;
     }
 }
+
+@media only screen and (min-width: 750px) and (max-width: 3250px) {
+    .u-image-invitation {
+        width: 40% !important;
+    }
+    
+    .u-image-invitation-section {
+        align-items: center !important;
+    }
+}
