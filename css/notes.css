@@ -69923,17 +69923,17 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables colors*/
 
 .u-image {
-    max-width: 100%;
-    height: auto;
-    display: block;
+        max-width: 100% !important;
+        height: auto !important;
+        display: block !important;
 }
 
-/* Media query for iPhone screens */
 @media only screen and (max-width: 414px) {
     /* Adjust the image size for iPhone screens */
     .u-image {
-        width: 100%;
-        height: auto;
-        max-width: 100%;
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        display: block !important;
     }
 }
