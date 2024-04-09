@@ -69921,3 +69921,18 @@ a.u-link.u-text-hover-grey-90:hover {
     color: var(--grey-90) !important;
 }
 /*end-variables colors*/
+
+.u-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Media query for iPhone screens */
+@media only screen and (max-width: 414px) {
+    /* Adjust the image size for iPhone screens */
+    .u-image {
+        width: 100%;
+        height: auto;
+    }
+}
